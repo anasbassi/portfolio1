@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h3 class="nav-welcome">Abubakar</h3>
+      <nav>
+        <ul class="nav-links">
+          <li class="close-menu">
+            <button type="button" class="close-btn">
+              <img src="images/icons/close-btn.svg" alt="Close menu" />
+            </button>
+          </li>
+          <li><a class="nav-link" href="#projects-section">Portfolio</a></li>
+          <li><a class="nav-link" href="#about-section">About</a></li>
+          <li><a class="nav-link" href="#contact-section">Contact</a></li>
+        </ul>
+        <button class="btn-nav" type="button">
+          <img src="images/icons/hamburger-icon.svg" alt="" class="icon-menu" />
+        </button>
+      </nav>
+    </header>
+
+    <section class="headline">
+      <div class="headline-content">
+        <h1 class="headline-intro">Hey there. I’m Anas Abubakar</h1>
+        <h2 class="headline-job">I’m a software developer</h2>
+        <p class="headline-details">
+          I can help you build a product , feature or website Look through some of my work and
+          experience! If you like what you see and have a project you need coded, don’t hestiate to
+          contact me.
+        </p>
+
+        <div class="social-icons">
+          <a class="twitter-icon" href="https://twitter.com/anasabu92568449">
+            <img src="images/icons/twitter-icon.svg" alt="Twitter icon" />
+          </a>
+
+          <a class="linkedin-icon" href="https://www.linkedin.com/in/anas-abubakar-bassi/">
+            <img src="images/icons/linkedin-icon.svg" alt="LinkedIn icon" />
+          </a>
+
+          <a class="github-icon" href="https://github.com/anasbassi">
+            <img src="images/icons/github-icon.svg" alt="" />
+          </a>
+
+          <a class="angelist-icon" href=""> <img src="images/icons/angelist-icon.svg" alt="" /> </a>
+        </div>
+
+        <button class="btn-next" type="button">
+          <img src="images/icons/down-arrow-icon.svg" alt="Down arrow icon" />
+        </button>
+      </div>
+    </section>
+
+    <section id="projects-section" class="projects">
+      <h2 class="work-sec-title">My Recent Works</h2>
+      <div class="indicator">
+        <img src="images/icons/indicator-bar.svg" alt="Indicator bar" />
+      </div>
+      <div class="cards-container"></div>
+
+      <div class="modal-container">
+        <div class="modal">
+          <div class="modal-btn-container">
+            <button type="button" class="modal-close modal-close--desktop">
+              <img src="./images/icons/close-btn.svg" alt="Modal close button" />
+            </button>
+          </div>
+          <div class="modal-img-container">
+            <button type="button" class="modal-close modal-close--mobile">
+              <img src="./images/icons/close-btn.svg" alt="Modal close button" />
+            </button>
+          </div>
+
+          <div class="modal-title-links"></div>
+          <div class="modal-links">
+            <a href="" class="btn btn-modal btn-live"
+              ><span>See live</span><img src="./images/icons/go-live-icon.svg" alt="Go live"
+            /></a>
+            <a href="" class="btn btn-modal btn-source"
+              ><span>See source</span><img src="./images/icons/github-white.svg" alt="See source"
+            /></a>
+          </div>
+          <ul class="project-tools modal-tools"></ul>
+          <div class="modal-desc"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-section" class="about-me">
+      <div class="about-intro-container">
+        <div class="about-intro">
+          <div class="about-intro--content">
+            <h2 class="about-me--title">About me</h2>
+            <p class="about-me--details">
+              I can help you build a product , feature or website Look through some of my work and
+              experience! If you like what you see and have a project you need coded, don’t hestiate
+              to contact me.
+            </p>
+            <button type="button" class="btn btn-resume"><a href="resume/Resume.docx" download="AnasResume">Get My Resume</a></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-tools">
+        <div class="about-card">
+          <div class="elipse">
+            <img src="images/ellipse-1.svg" alt="Ellipse 1" />
+          </div>
+          <h3 class="about-card--title">Languages</h3>
+          <ul class="about-card--details">
+            <li>JavaScript</li>
+            <li>Ruby</li>
+            <li>Html</li>
+            <li>CSS</li>
+          </ul>
+        </div>
+
+        <div class="about-card">
+          <div class="elipse">
+            <img src="images/ellipse-2.svg" alt="Ellipse 2" />
+          </div>
+          <h3 class="about-card--title">Frameworks</h3>
+          <ul class="about-card--details">
+            <li>Bootstrap</li>
+            <li>Ruby on rails</li>
+            <li>RSpec</li>
+            <li>Capybara</li>
+            <li>Selenium</li>
+          </ul>
+        </div>
+
+        <div class="about-card">
+          <div class="elipse">
+            <img src="images/ellipse-3.svg" alt="" />
+          </div>
+          <h3 class="about-card--title">Skills</h3>
+          <ul class="about-card--details">
+            <li>Codekit</li>
+            <li>GitHub</li>
+            <li>CodePen</li>
+            <li>Gitlab</li>
+            <li>Terminal</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact-section" class="contact-me">
+      <div class="contact-content">
+        <h2 class="contact-title">
+          I'm always interested in hearing about new projects, so if you'd like to chat please get
+          in touch.
+        </h2>
+        <form
+          id="contact-form"
+          class="contact-form"
+          action="https://formspree.io/f/mbjwwqga"
+          method="post"
+        >
+          <input
+            class="form-control"
+            type="text"
+            name="name"
+            maxlength="30"
+            placeholder="Full name"
+            required
+          />
+          <input
+            class="form-control"
+            type="email"
+            name="email"
+            placeholder="email@email.com"
+            required
+          />
+          <textarea
+            class="form-control message"
+            name="message"
+            maxlength="500"
+            placeholder="Enter text here"
+            required
+          ></textarea>
+          <div class="msg-container">
+            <button class="btn form-control btn-submit" type="submit">Get in touch</button>
+            <p class="val-result"></p>
+          </div>
+        </form>
+        <form
+          id="contact-form-big"
+          class="contact-form-big"
+          action="https://formspree.io/f/meqnndkg"
+          method="post"
+        >
+          <div class="full-name">
+            <input
+              class="form-control"
+              type="text"
+              name="first-name"
+              maxlength="30"
+              placeholder="First Name"
+              required
+            />
+            <input
+              class="form-control"
+              type="text"
+              name="last-name"
+              maxlength="30"
+              placeholder="Last Name"
+              required
+            />
+          </div>
+
+          <input
+            class="form-control"
+            type="email"
+            name="email"
+            placeholder="Email address"
+            required
+          />
+          <textarea
+            class="form-control message"
+            name="message"
+            maxlength="500"
+            placeholder="Typing something"
+            required
+          ></textarea>
+          <div class="msg-container">
+            <button class="btn form-control btn-submit" type="submit">Get in touch</button>
+            <p class="val-result-big"></p>
+          </div>
+        </form>
+      </div>
+      <div class="social-icons">
+        <a class="twitter-icon" href="https://twitter.com/anasabu92568449">
+          <img src="images/icons/twitter-icon.svg" alt="Twitter icon" />
+        </a>
+
+        <a class="linkedin-icon" href="https://www.linkedin.com/in/anas-abubakar-bassi/">
+          <img src="images/icons/linkedin-icon.svg" alt="LinkedIn icon" />
+        </a>
+
+        <a class="medium-icon" href="">
+          <img src="images/icons/medium-icon.svg" alt="Medium icon" />
+        </a>
+
+        <a class="github-icon" href="https://github.com/anasbassi">
+          <img src="images/icons/github-icon.svg" alt="GitHub icon" />
+        </a>
+
+        <a class="angelist-icon" href="">
+          <img src="images/icons/angelist-icon.svg" alt="Angelist icon" />
+        </a>
+      </div>
+      <div class="mail-wrapper">
+        <a class="contact-mail" href="mailto:anasabubakar2015@gmail.com">anasabubakar2015@gmail.com </a>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/validator.js"></script>
+  </body>
+</html>
