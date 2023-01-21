@@ -8,7 +8,7 @@ const projectsData = [
   {
     name: 'Todo list',
     description:
-      'The to-do-list app is a software used for monitoring ones daily routine, Built with Html, CSS, javaScript,and webpack .',
+      'To-do-List website is a page that contains information that you already listed of shores and things to do . The list can be generated from the application by writing in the field provided, the list can also be editted, and removed. The to-do-list app can also save the checked and clear them using the clear all completed button.',
     imageUrl: [
       './images/projects/todo.jpg',
       './images/projects/todo.jpg',
@@ -73,7 +73,7 @@ const projectsData = [
   {
     name: 'Math Magicians',
     description:
-      'Math-Magicians is a web app for all lovers of mathematics. It is a Single Page Application (SPA) that allows users to make simple calculations and read a random math-related quote.',
+      'Math-Magicians is a web app for all lovers of mathematics. It is a Single Page Application (SPA) that allows users to make simple calculations and read a random math-related quote. it was built using React.',
     imageUrl: [
       './images/projects/math.webp',
       './images/projects/math.webp',
